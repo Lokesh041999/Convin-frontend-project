@@ -1,0 +1,112 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+ }
+ 
+ #nav{
+     height:80px;
+     width:100%;
+     background-color: black;
+     display:flex;
+     align-items:center;
+     justify-content:space-evenly;
+     border-bottom: 1px solid rgb(71, 71, 69);
+ }
+ 
+ #nav>a{
+     text-decoration:none;
+     color:white;
+     font-family:Arial, Helvetica, sans-serif;
+     font-style: italic;
+     text-shadow:1px 1px 2px white;
+ }
+ 
+ #myForm{
+     height:80vh;
+     width:100%;
+     background:linear-gradient(black,white);
+     display:flex;
+     align-items:center;
+     justify-content:center; 
+ }
+ 
+ #myForm>form{
+    color:rgb(205, 172, 61);
+     height:250px;
+     width:400px;
+     border:1px solid rgb(249, 249, 248);
+     font-style:italic;
+     font-family:Arial, Helvetica, sans-serif;
+     box-shadow:0px 0px 5px rgb(248, 248, 246);
+     border-radius:10px;
+ }
+ 
+ #myForm input{
+     background-color:transparent;
+     border:none;
+     width:200px;
+     border-bottom: 1px solid rgb(12, 12, 12);
+ }
+ 
+ #myForm input:focus{
+     outline:none;
+     color: rgb(250, 248, 248);
+     
+ }
+ 
+ #myForm button{
+     height:30px;
+     width:120px;
+     border-radius:50px;
+     border:none;
+     box-shadow:0px 0px 5px white;
+     margin-top:10px;
+     background-color: rgb(211, 184, 50);
+ }
+ 
+ #myForm>form>tr>td,th{
+     padding:13px;
+   }
+ 
+ #userPage{
+     height:80vh;
+     width:100%;
+     background:linear-gradient(black,white);
+     display:flex;
+     justify-content: space-evenly;
+     align-items:center;
+     flex-wrap: wrap;
+ }
+ #card{
+     height:200px;
+     width:400px;
+     border:1px solid white;
+     color: rgb(9, 9, 9);
+     font-family:Arial, Helvetica, sans-serif;
+     font-style:italic;
+     border-radius:10px;
+     box-shadow: 0px 0px 5px white;
+     
+    }
+
+    #card td{
+        padding: 10px;
+       
+    }
+
+    #youtube-box{
+        width:50%;
+        height:350px;
+        background-color: #e4e4e4;
+
+    }
+    
+    button {
+        height:20px;
+        width: 80px;
+        border:none;
+        border-radius:50px;
+        box-shadow: 0px 0px 5px rgb(255, 255, 255);
+        align-items:center;
+    }
